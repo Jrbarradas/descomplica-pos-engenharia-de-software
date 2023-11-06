@@ -1,17 +1,17 @@
-# Arquitetura de Computadores do Século XXI: Sistemas de Numeração
+# Cronograma
 
 # Exercícios
 
 
 ## Questão 01
-​Quanto é o número 16 na base 2 (em binário)?
+Quanto é o número 16 na base 2 (em binário)?
 
 ### Resposta:
 - e) ​10000
 
 > SOLUÇÃO DO PROFESSOR ✨
 >
-> ​A conversão se dá por múltiplas divisões por 2 e o aproveitamento dos restos na ordem invertida, resultando 10000
+> A conversão se dá por múltiplas divisões por 2 e o aproveitamento dos restos na ordem invertida, resultando 10000
 
 
 ## Questão 02
@@ -22,7 +22,7 @@ Quanto é o número 1001 (base 2) convertido para a base 10 (decimal)?
 
 > SOLUÇÃO DO PROFESSOR ✨
 >
-> ​A conversão se dá multiplicando-se cada dígito por 2 elevado à potência começando do zero da direita para a esquerda: 1 x 2^0 + 0x2^1 + 0x2^2 + 1x2^3 = 9
+> A conversão se dá multiplicando-se cada dígito por 2 elevado à potência começando do zero da direita para a esquerda: 1 x 2^0 + 0x2^1 + 0x2^2 + 1x2^3 = 9
 
 
 ## Questão 03
@@ -33,7 +33,7 @@ O número 50 na base hexadecimal corresponde a qual número na base decimal?
 
 > SOLUÇÃO DO PROFESSOR ✨
 >
-> ​50 (16) = 0 x 16^0 + 5 X 16^1 = 80 (base 10)
+> 50 (16) = 0 x 16^0 + 5 X 16^1 = 80 (base 10)
 
 
 ## Questão 04
@@ -63,13 +63,13 @@ Levando em consideração o tipo de sistema de numeração utilizado pelos compu
 
 > SOLUÇÃO DO PROFESSOR ✨
 >
-> ​Bit é a menor unidade de memória, admite 0 ou 1; já um byte reúne 8 bits o que permite 256 combinações diferentes de bits; o sistema binário admite dois algarismos, 0 ou 1. Dessa forma todas são verdadeiras.
+> Bit é a menor unidade de memória, admite 0 ou 1; já um byte reúne 8 bits o que permite 256 combinações diferentes de bits; o sistema binário admite dois algarismos, 0 ou 1. Dessa forma todas são verdadeiras.
 
 
 ## Questão 06
 Na especificação de memória de computador, costuma-se utilizar como unidade de medida o Byte e seus múltiplos (KB, MB, GB, TB, PB, etc). Analise as alternativas abaixo e realize as devidas conversões. Dentre as alternativas abaixo, qual corresponde ao valor equivalente a 1,5 MB (1,5 megabyte)?
 
-> ​​​​​​​I - 1.536 KB ou 1.048.576 Bytes
+> ​​​​​​I - 1.536 KB ou 1.048.576 Bytes
 >
 > II - 1.572.864 Bytes ou 1.536 KB
 >
@@ -84,7 +84,7 @@ Na especificação de memória de computador, costuma-se utilizar como unidade d
 
 > SOLUÇÃO DO PROFESSOR ✨
 >
-> ​Considerando que 1 kbyte = 1024 bytes e que 1 Mbyte = 1024 kbytes, algo como 1,5 MB corresponde a 1,5 x 1024 KB, isto é, 1.536 KB
+> Considerando que 1 kbyte = 1024 bytes e que 1 Mbyte = 1024 kbytes, algo como 1,5 MB corresponde a 1,5 x 1024 KB, isto é, 1.536 KB
 
 <hr>
 

@@ -1,144 +1,140 @@
-# Arquitetura de Computadores do Século XXI: Sistemas de Numeração
+# Módulo 1 - Avaliação Objetiva
 
 # Exercícios
 
 
 ## Questão 01
-​Quanto é o número 16 na base 2 (em binário)?
+Assinale a alternativa CORRETA sobre Scrum.
 
 ### Resposta:
-- e) ​10000
+- d) Acontece a divisão do projeto em pequenos e diversos ciclos de atividades.
 
 > SOLUÇÃO DO PROFESSOR ✨
 >
-> ​A conversão se dá por múltiplas divisões por 2 e o aproveitamento dos restos na ordem invertida, resultando 10000
+> A alternativa correta é a letra D. Com o Scrum, ocorre a divisão do projeto em pequenos e diversos ciclos de atividades, com reuniões frequentes para o alinhamento da equipe diante do projeto de software que está sendo desenvolvido e de forma a pensar formas de melhorar o processo com agilidade.
 
 
 ## Questão 02
-Quanto é o número 1001 (base 2) convertido para a base 10 (decimal)?
+Assinale a alternativa CORRETA sobre aplicando Scrum e Kanban.
 
 ### Resposta:
-- a) 9
+- c) É importante garantir a motivação e o engajamento da equipe.
 
 > SOLUÇÃO DO PROFESSOR ✨
 >
-> ​A conversão se dá multiplicando-se cada dígito por 2 elevado à potência começando do zero da direita para a esquerda: 1 x 2^0 + 0x2^1 + 0x2^2 + 1x2^3 = 9
+> A alternativa correta é a letra C. Quando se aplica o Scrum e o Kanban, é importante garantir a motivação e o engajamento da equipe, por isso, a escolha da equipe precisa ser muito bem pensada
 
 
 ## Questão 03
-O número 50 na base hexadecimal corresponde a qual número na base decimal?
+Java é uma linguagem de programação orientada a objetos (POO) baseada em classes construída em torno do conceito de objetos. Os conceitos POO destinam-se a melhorar a legibilidade e a reutilização do código, definindo como estruturar seu programa Java de forma eficiente.
+A partir desta definição, analise as afirmativas a seguir.
+I. A classe é definida como uma representação de um grupo de coisas, como classe Cachorro, classe Carro, entre outras.
+II. O objeto é uma instância de uma classe, logo, a classe Carro pode ter o objeto carro1 ou carro2, sempre referenciados por variáveis.
+III. A classe possui variáveis que representam os atributos que, em outras palavras, são as ações que um objeto pode realizar.
+IV. A classe possui os métodos os quais representam as características que descrevem as classes.
+Estão corretas apenas as afirmativas:
 
 ### Resposta:
-- c) 80
+- a) I e II, apenas.
 
 > SOLUÇÃO DO PROFESSOR ✨
 >
-> ​50 (16) = 0 x 16^0 + 5 X 16^1 = 80 (base 10)
+> A alternativa correta é a letra A. A afirmação I está correta, pois a classe é um conjunto de características e ações de um objeto, representando a sua forma. A afirmação II está correta, pois um objeto é a representação de uma classe na memória no formato de uma variável. Trata-se de um tipo abstrato de dado. A afirmação III está incorreta, pois os atributos representam as características de um objeto. A afirmação IV está incorreta, pois os métodos representam as ações de um objeto.
 
 
 ## Questão 04
-O número 04C na base hexadecimal corresponde a qual número na base decimal?
+Qual o nome do artefato em que mapeamos todos os pontos de interação do usuário com o produto ou serviço?
 
 ### Resposta:
-- d) 76
+- b) Jornada.
 
 > SOLUÇÃO DO PROFESSOR ✨
 >
-> 12 x 16^0 + 4 x 16^1 + 0 x 16^2 = 12 + 64 = 76
+> A alternativa correta é a Letra B. A jornada do usuário é o artefato em que mapeamos todos os pontos de interação do usuário com o produto ou serviço.
 
 
 ## Questão 05
-Levando em consideração o tipo de sistema de numeração utilizado pelos computadores digitais, analise as afirmativas abaixo e identifique se a mesma é V-Verdadeira ou F-Falsa
-
-> I - O Bit é a menor unidade de informação utilizada pelo computador, tem atribuições lógicas 0 ou 1
->
-> II - O Byte é conjunto de 8 bits e pode ter até 2^8 = 256 configurações diferentes
->
-> III - No sistema de numeração binário, a notação que é utilizada possui apenas 2 algarismos ou dígitos para representar uma quantidade desejada, o 0 e o 1
-
-É correto apenas o que se afirma em:
+Quais são as metodologias mais utilizadas para o gerenciamento de projetos atualmente?
 
 ### Resposta:
-- a) I, II e III são verdadeiras
+- d) Kanban, Scrum e Waterfall
 
 > SOLUÇÃO DO PROFESSOR ✨
 >
-> ​Bit é a menor unidade de memória, admite 0 ou 1; já um byte reúne 8 bits o que permite 256 combinações diferentes de bits; o sistema binário admite dois algarismos, 0 ou 1. Dessa forma todas são verdadeiras.
+> A alternativa correta é a letra D. A única alternativa que possui metodologias válidas das mais utilizadas é a alternativa D. As metodologias mais utilizadas para o gerenciamento de projetos: Waterfall – Cascata, Kanban, Scrum, Prince 2 e Lean.
 
 
 ## Questão 06
-Na especificação de memória de computador, costuma-se utilizar como unidade de medida o Byte e seus múltiplos (KB, MB, GB, TB, PB, etc). Analise as alternativas abaixo e realize as devidas conversões. Dentre as alternativas abaixo, qual corresponde ao valor equivalente a 1,5 MB (1,5 megabyte)?
-
-> ​​​​​​​I - 1.536 KB ou 1.048.576 Bytes
->
-> II - 1.572.864 Bytes ou 1.536 KB
->
-> III - 1.572.864 KB ou 1.536Bytes
->
-> IV - 0,0014 GB ou 1.536Bytes
-
-É correto apenas o que se afirma em:
+Você é um gerente de projetos que está trabalhando no levantamento de requisitos e na elaboração de estimativas para o projeto. Em que grupo de processos você se encontra?
 
 ### Resposta: 
-- e) Apenas a II está correta
+- a) Planejamento
 
 > SOLUÇÃO DO PROFESSOR ✨
 >
-> ​Considerando que 1 kbyte = 1024 bytes e que 1 Mbyte = 1024 kbytes, algo como 1,5 MB corresponde a 1,5 x 1024 KB, isto é, 1.536 KB
+> A alternativa correta é a letra A. No processo de Planejamento são especificados os requisitos, identificadas as partes interessadas e geradas estimativas de custo e duração do projeto.
+
+<hr>
+## Questão 07
+
+Um algoritmo representa um conjunto de instruções para que algo seja feito. Uma receita, uma bula de remédio ou um manual de instruções são considerados algoritmos descritivos, uma vez que descrevem passo a passo o que deve ser feito e como deve ser feito.
+
+Quais os tipos de representações mais comuns?
+
+### Resposta: 
+
+- c) Descrição narrativa, fluxograma e pseudocódigo.
+
+> SOLUÇÃO DO PROFESSOR ✨
+>
+> A alternativa correta é a letra C.
+> Um algoritmo é algo conceitual, o qual pode ser representado em formato de texto ou descrição narrativa (manual de instruções, receita de bolo), fluxograma (descrição gráfica de um algoritmo) e pseudocódigo (forma intermediária entre a linguagem de programação e a linguagem natural).
 
 <hr>
 
-## Pensar & Responder
+## Questão 08
 
-Na especificação de memória de computador, costuma-se utilizar como unidade de medida o Byte e seus múltiplos (KB, MB, GB, TB, PB, etc.), conforme a tabela abaixo:
+Em relação aos testes de software e testes de usabilidade, podemos dizer que:
 
+### Resposta: 
 
-| Nome       | Símbolo  | Tamanho     |
-| ---------- | -------- | ----------- |
-| Byte       |    B     | 8 Bit       |
-| KiloByte   |   KB     | 1024 Byte   |
-| MegaByte   |   MB     | 1024 KByte  |
-| GigaByte   |   GB     | 1024 MByte  |
-| TeraByte   |   TB     | 1024 GByte  |
-| PetaByte   |   PB     | 1024 TByte  |
-| ExaByte    |   EB     | 1024 PByte  |
-| ZettaByte  |   ZB     | 1024 EByte  |
-| YottaByte  |   YB     | 1024 ZByte  |
+- e)  São complementares.
 
-
-Um funcionário de uma antiga biblioteca de uma pequena cidade do interior pretende digitalizar todo o acervo em papel a fim de preservar aquele valioso acervo e permitir novas formas de aproveitamento do material.
-
-O funcionário pretende se empenhar para digitalizar por meio de reconhecimento de caracteres, não por escaneamento por imagens, que é a forma mais comum. Dessa forma os textos poderão ser estudados por busca por palavras, nomes e cruzamento de expressões, por exemplo.
-
-No acervo, existem cerca de 1000 livros com 150 páginas cada livro, em média.
-
-Considera-se que em uma página de um livro existam aproximadamente 200 palavras, com 7 caracteres cada palavra, também em média.
-
-Considerando que um único BYTE armazena um único caractere (uma letra, número, ou símbolo especial), pergunta-se:
-
-Qual a quantidade aproximada de memória de computador que esse funcionário precisará utilizar para armazenar todo o acervo?
-
-Para responder, faça as hipóteses que julgar necessárias!
-
-## Resposta
-> **ATENÇÃO!**
-> Nota atingida com essa resposta: 10
-
-
-O funcionário precisa de 210 MB para armazenar o acervo.
-
-Explicação:
-
-Primeiro precisamos levantar a quantidade de dados:
-
-> Total de livros: 1000
+> SOLUÇÃO DO PROFESSOR ✨
 >
-> Total de páginas: 150.000 (quantidade de livros x quantidade de páginas)
->
-> Total de palavras: 30.000.000 (quantidade de páginas x quantidade de palavras)
->
-> Total de caracteres: 210.000.000 (quantidade de palavras x quantidade de caracteres)
->
-> Total de bytes: 210.000.000 (equivalente a quantidade de caracteres)
+> A alternativa correta é a letra E. Teste de software serve para um objetivo, já o teste com usuários finais, representantes de usuários reais, para outro. Ambos são importantes e visam objetivos diferentes.
 
-A fórmula para converter byte em MegaByte é dividir o valor por 1e+6 (1 seguido de 6 zeros), o que resulta em 210 MB.
+<hr>
+
+## Questão 09
+
+Quando devemos aplicar os testes com usuários?
+
+### Resposta: 
+
+- d) Em qualquer momento.
+
+> SOLUÇÃO DO PROFESSOR ✨
+>
+> A alternativa correta é a letra D. Devemos aplicar os testes com usuários, sempre e em qualquer momento. Não aplicar apenas em uma ou outra etapa.
+
+<hr>
+
+## Questão 10
+
+Você é GP e está trabalhando em um novo software que sua empresa pretende comercializar para pessoas jurídicas. O patrocinador informou que o projeto deve ser concluído até primeiro de janeiro do próximo ano. A empresa planeja fazer uma demonstração do novo produto em uma feira de exposição no final daquele mês, e por isso precisa que o projeto seja concluído a tempo. Entretanto, o patrocinador também informou que o orçamento foi estipulado em R$ 400 mil e não pode ser aumentado. Você deve concluir o projeto dentro do prazo e orçamento especificados.
+
+Qual das seguintes opções é a principal restrição deste projeto?
+
+### Resposta: 
+
+- e) Tempo
+
+> SOLUÇÃO DO PROFESSOR ✨
+>
+> A alternativa é a letra E. A principal restrição é o tempo. Como as demonstrações na feira dependem da conclusão do projeto e o evento ocorre no final de janeiro, a data não pode ser alterada. Neste exemplo, o orçamento é uma restrição secundária.
+
+<hr>
+
+
+## 

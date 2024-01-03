@@ -74,7 +74,6 @@ Você é um gerente de projetos que está trabalhando no levantamento de requisi
 >
 > A alternativa correta é a letra A. No processo de Planejamento são especificados os requisitos, identificadas as partes interessadas e geradas estimativas de custo e duração do projeto.
 
-<hr>
 ## Questão 07
 
 Um algoritmo representa um conjunto de instruções para que algo seja feito. Uma receita, uma bula de remédio ou um manual de instruções são considerados algoritmos descritivos, uma vez que descrevem passo a passo o que deve ser feito e como deve ser feito.

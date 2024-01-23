@@ -4,45 +4,143 @@
 
 
 ## Questão 01
-Quanto é o número 16 na base 2 (em binário)?
+Observe o algoritmo abaixo e indique qual é a operação de manipulação da Fila a que o algoritmo se refere:
+
+Enfileirar (elemento numérico_inteiro)
+
+ início_módulo
+
+  se (não FilaCheia( ))
+
+   então
+
+​    vetor[fim] ← elemento;
+
+​    fim ← fim + 1;
+
+​    total ← total + 1;
+
+​    se (fim > = tamanho)
+
+​     então
+
+​      fim ← 0;
+
+​    fimse;
+
+   senão
+
+​    escrever ("Fila Cheia");
+
+  fimse;
+
+ fim_módulo;
 
 ### Resposta:
-- e) ​10000
+- a) insere um elemento no final da fila
 
 > SOLUÇÃO DO PROFESSOR ✨
 >
-> A conversão se dá por múltiplas divisões por 2 e o aproveitamento dos restos na ordem invertida, resultando 10000
+> Enfileirar é uma operação de manipulação da Fila que insere um elemento no final da fila, o acesso é no final da fila
 
 
 ## Questão 02
-Quanto é o número 1001 (base 2) convertido para a base 10 (decimal)?
+Observe o algoritmo abaixo e indique qual é a operação de manipulação da Fila a que o algoritmo se refere:
+
+numérico_inteiro Desenfileirar ()
+
+ início_módulo
+
+  Declarar
+
+   desenfileirado ← 0 numérico_inteiro;
+
+ 
+
+  se (FilaVazia()) então
+
+​    escrever ("Fila Vazia");
+
+   senão
+
+​    desenfileirado ← vetor[inicio];
+
+​    inicio ← inicio + 1;
+
+​    total ← total – 1;
+
+​    se (inicio >= tamanho) então
+
+​      inicio ← 0;
+
+  fimse;
+
+  retornar desenfileirado;
+
+ fim_módulo;
 
 ### Resposta:
-- a) 9
+- b) remove um elemento do início da fila
 
 > SOLUÇÃO DO PROFESSOR ✨
 >
-> A conversão se dá multiplicando-se cada dígito por 2 elevado à potência começando do zero da direita para a esquerda: 1 x 2^0 + 0x2^1 + 0x2^2 + 1x2^3 = 9
+> Desenfileirar é uma operação de manipulação da Fila que remove um elemento do início da fila, o acesso se dá pelo início da Fila
 
 
 ## Questão 03
-O número 50 na base hexadecimal corresponde a qual número na base decimal?
+Observe o algoritmo abaixo e indique qual é a operação de manipulação da Fila a que o algoritmo se refere:
+
+lógico FilaVazia( )
+
+ início_módulo
+
+  se (total = 0)
+
+   então
+
+​    retornar verdadeiro;
+
+  senão
+
+   retornar falso;
+
+  fimse;
+
+ fim_módulo;
 
 ### Resposta:
-- c) 80
+- c) verifica se a fila está vazia
 
 > SOLUÇÃO DO PROFESSOR ✨
 >
-> 50 (16) = 0 x 16^0 + 5 X 16^1 = 80 (base 10)
+> Fila Vazia é uma operação de manipulação da Fila que verifica se a fila está vazia, a verificação acontece pelo total de elementos da Fila
 
 
 ## Questão 04
-O número 04C na base hexadecimal corresponde a qual número na base decimal?
+Observe o algoritmo abaixo e indique qual é a operação de manipulação da Fila a que o algoritmo se refere:
+
+lógico FilaCheia( )
+
+ início_módulo
+
+  se (total >= tamanho)
+
+   então
+
+​    retornar verdadeiro;
+
+   senão
+
+​    retornar falso;
+
+  fimse;
+
+ fim_módulo;
 
 ### Resposta:
-- d) 76
+- d) verifica se a fila está cheia
 
 > SOLUÇÃO DO PROFESSOR ✨
 >
-> 12 x 16^0 + 4 x 16^1 + 0 x 16^2 = 12 + 64 = 76
+> Fila Cheia é uma operação de manipulação da Fila que verifica se a fila está cheia. O acesso se dá pelo total de elementos da Fila
 

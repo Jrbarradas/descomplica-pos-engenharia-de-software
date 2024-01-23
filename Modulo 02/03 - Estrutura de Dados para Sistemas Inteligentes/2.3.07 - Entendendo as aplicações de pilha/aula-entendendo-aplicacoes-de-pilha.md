@@ -4,45 +4,129 @@
 
 
 ## Questão 01
-Quanto é o número 16 na base 2 (em binário)?
+Observe o algoritmo abaixo e indique qual é a operação de manipulação da Pilha e a qual algoritmo se refere:
+
+Empilhar (elemento numérico_inteiro)
+
+ início_módulo
+
+  se (não PilhaCheia( ))
+
+   então
+
+​    topo ← topo + 1;
+
+​    vetor[topo] ← elemento;
+
+   senão
+
+​    escrever ("Pilha Cheia");
+
+  fimse;
+
+ fim_módulo;
 
 ### Resposta:
-- e) ​10000
+- a) insere um elemento na pilha
 
 > SOLUÇÃO DO PROFESSOR ✨
 >
-> A conversão se dá por múltiplas divisões por 2 e o aproveitamento dos restos na ordem invertida, resultando 10000
+> Empilhar é uma operação de manipulação de Pilha que insere um elemento na Pilha. A inserção ocorre no topo da Pilha
 
 
 ## Questão 02
-Quanto é o número 1001 (base 2) convertido para a base 10 (decimal)?
+Observe o algoritmo abaixo e indique qual é a operação de manipulação da Pilha e a qual algoritmo se refere:
+
+inteiro Desempilhar ()
+
+ início_módulo
+
+  Declarar
+
+   desempilhado ← 0 numérico_inteiro;
+
+ 
+
+  se (PilhaVazia())
+
+   então
+
+​    escrever ("Pilha Vazia");
+
+   senão
+
+​    desempilhado ← vetor[topo];
+
+​    topo ← topo – 1;
+
+  fimse;
+
+  retornar desempilhado;
+
+ fim_módulo**;**
 
 ### Resposta:
-- a) 9
+- b) remove um elemento da pilha
 
 > SOLUÇÃO DO PROFESSOR ✨
 >
-> A conversão se dá multiplicando-se cada dígito por 2 elevado à potência começando do zero da direita para a esquerda: 1 x 2^0 + 0x2^1 + 0x2^2 + 1x2^3 = 9
+> Desempilhar é uma operação de manipulação da Pilha que remove um elemento da Pilha. A remoção ocorre pelo topo da Pilha
 
 
 ## Questão 03
-O número 50 na base hexadecimal corresponde a qual número na base decimal?
+Observe o algoritmo abaixo e indique qual é a operação de manipulação da Pilha e a qual algoritmo se refere:
+
+lógico PilhaVazia( )
+
+ início_módulo
+
+  se (topo = – 1)
+
+   então
+
+​    retornar verdadeiro;
+
+  senão
+
+   retornar falso;
+
+  fimse;
+
+ fim_módulo;
 
 ### Resposta:
-- c) 80
+- c) verifica se a pilha está vazia
 
 > SOLUÇÃO DO PROFESSOR ✨
 >
-> 50 (16) = 0 x 16^0 + 5 X 16^1 = 80 (base 10)
+> Pilha Vazia é uma operação de manipulação da Pilha que verifica se a pilha está vazia. A verificação ocorre pela variável topo
 
 
 ## Questão 04
-O número 04C na base hexadecimal corresponde a qual número na base decimal?
+Observe o algoritmo abaixo e indique qual é a operação de manipulação da Pilha e a qual algoritmo se refere:
+
+lógico PilhaCheia( )
+
+ início_módulo
+
+  se (topo >= tamanho – 1)
+
+   então
+
+​    retornar verdadeiro;
+
+   senão
+
+​    retornar falso;
+
+  fimse;
+
+ fim_módulo;
 
 ### Resposta:
-- d) 76
+- d) verifica se a pilha está cheia
 
 > SOLUÇÃO DO PROFESSOR ✨
 >
-> 12 x 16^0 + 4 x 16^1 + 0 x 16^2 = 12 + 64 = 76
+> Pilha Cheia é uma operação de manipulação da Pilha que verifica se a pilha está cheia. A verificação ocorre pela variável topo
 

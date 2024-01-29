@@ -4,45 +4,53 @@
 
 
 ## Questão 01
-Quanto é o número 16 na base 2 (em binário)?
+Para a árvore binária a seguir, qual será o percurso em pré ordem?
+
+![Autoral](https://paperx-dex-assets.s3.sa-east-1.amazonaws.com/images/1655490784112-Fw4tOcQ2VM.png)
 
 ### Resposta:
-- e) ​10000
+- a) 1, 2, 4, 5, 3
 
 > SOLUÇÃO DO PROFESSOR ✨
 >
-> A conversão se dá por múltiplas divisões por 2 e o aproveitamento dos restos na ordem invertida, resultando 10000
+> No percurso pré ordem, você precisa visitar, ou seja, imprimir o valor, percorrer à esquerda e percorrer à direita. Por isso, o percurso será 1, 2, 4, 5, 3
 
 
 ## Questão 02
-Quanto é o número 1001 (base 2) convertido para a base 10 (decimal)?
+Para a árvore binária a seguir, qual será o percurso em ordem?
+
+![Autoral](https://paperx-dex-assets.s3.sa-east-1.amazonaws.com/images/1655490858721-5Z9C4n4DqK.png)
 
 ### Resposta:
-- a) 9
+- c) 4, 2, 5, 1, 3
 
 > SOLUÇÃO DO PROFESSOR ✨
 >
-> A conversão se dá multiplicando-se cada dígito por 2 elevado à potência começando do zero da direita para a esquerda: 1 x 2^0 + 0x2^1 + 0x2^2 + 1x2^3 = 9
+> No percurso em ordem, você precisa percorrer à esquerda, visitar, ou seja imprimir o valor e percorrer à direita. Por isso, o percurso será 4, 2, 5, 1, 3
 
 
 ## Questão 03
-O número 50 na base hexadecimal corresponde a qual número na base decimal?
+Para a árvore binária a seguir, qual será o percurso em pós ordem?
+
+![Autoral](https://paperx-dex-assets.s3.sa-east-1.amazonaws.com/images/1655491096994-VUzvRr8by1.png)
 
 ### Resposta:
-- c) 80
+- e) 4, 5, 2, 3, 1
 
 > SOLUÇÃO DO PROFESSOR ✨
 >
-> 50 (16) = 0 x 16^0 + 5 X 16^1 = 80 (base 10)
+> No percurso em pós ordem, você precisa percorrer à esquerda, percorrer à direita e depois visitar, ou seja, imprimir o valor do nó. Por isso, o percurso será 4, 5, 2, 3, 1
 
 
 ## Questão 04
-O número 04C na base hexadecimal corresponde a qual número na base decimal?
+Para a árvore binária a seguir, qual será o percurso em pré ordem?
+
+![Autoral](https://paperx-dex-assets.s3.sa-east-1.amazonaws.com/images/1655491191526-ioX0o9O9iM.png)
 
 ### Resposta:
-- d) 76
+- a) +X 4 5 – : 7 8 2
 
 > SOLUÇÃO DO PROFESSOR ✨
 >
-> 12 x 16^0 + 4 x 16^1 + 0 x 16^2 = 12 + 64 = 76
+> No percurso pré ordem, você precisa visitar, ou seja, imprimir o valor, percorrer à esquerda e percorrer à direita. Por isso, o percurso será + X 4 5 – : 7 8 2
 

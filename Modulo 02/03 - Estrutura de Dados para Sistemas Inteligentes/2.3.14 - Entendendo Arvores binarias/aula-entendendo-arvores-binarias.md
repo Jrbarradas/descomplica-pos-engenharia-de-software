@@ -1,48 +1,48 @@
-# Entendendo Arvores Binarias
+# Entendendo Árvores Binárias
 
 # Exercícios
 
 
 ## Questão 01
-Quanto é o número 16 na base 2 (em binário)?
+Sobre a operação de Inserir na árvore binária, é CORRETO afirmar que:
 
 ### Resposta:
-- e) ​10000
+- c) Inserir é um módulo procedimento que recebe uma árvore binária e um novo Nó a ser inserido
 
 > SOLUÇÃO DO PROFESSOR ✨
 >
-> A conversão se dá por múltiplas divisões por 2 e o aproveitamento dos restos na ordem invertida, resultando 10000
+> A operação de inserir da árvore binária é um módulo procedimento da operação inserir que recebe como parâmetro um Nó que representa a raiz de uma árvore binária e um novo Nó com o elemento que será inserido na árvore binária
 
 
 ## Questão 02
-Quanto é o número 1001 (base 2) convertido para a base 10 (decimal)?
+Sobre a operação Exibir Esquerda de uma árvore binária, é CORRETO afirmar que:
 
 ### Resposta:
-- a) 9
+- e) ExibirEsq é um módulo procedimento que recebe um nó e mostra os elementos da subárvore esquerda deste nó
 
 > SOLUÇÃO DO PROFESSOR ✨
 >
-> A conversão se dá multiplicando-se cada dígito por 2 elevado à potência começando do zero da direita para a esquerda: 1 x 2^0 + 0x2^1 + 0x2^2 + 1x2^3 = 9
+> Exibir Esquerda é uma operação de árvore binária. É um módulo procedimento que recebe um nó e mostra o elemento que está à esquerda desse nó. Normalmente, existe uma subárvore à esquerda desse nó e todos os elementos dela são exibidos
 
 
 ## Questão 03
-O número 50 na base hexadecimal corresponde a qual número na base decimal?
+Sobre a operação Exibir Direita de uma árvore binária, é CORRETO afirmar que:
 
 ### Resposta:
-- c) 80
+- d) ExibirDir é um módulo procedimento que recebe um nó e mostra os elementos da subárvore direita deste nó.
 
 > SOLUÇÃO DO PROFESSOR ✨
 >
-> 50 (16) = 0 x 16^0 + 5 X 16^1 = 80 (base 10)
+> Exibir Direita é uma operação de árvore binária. É um módulo procedimento que recebe um nó e mostra o elemento que está à direita desse nó. Normalmente, existe uma subárvore à direita desse nó e todos os elementos dela são exibidos
 
 
 ## Questão 04
-O número 04C na base hexadecimal corresponde a qual número na base decimal?
+Sobre a operação Exibir Raiz de uma árvore binária, é CORRETO afirmar que:
 
 ### Resposta:
-- d) 76
+- c) ExibirRaiz é um módulo procedimento que recebe uma árvore binária e mostra o elemento que está na raiz dessa árvore binária
 
 > SOLUÇÃO DO PROFESSOR ✨
 >
-> 12 x 16^0 + 4 x 16^1 + 0 x 16^2 = 12 + 64 = 76
+> Exibir Raiz é uma operação de árvore binária. É um módulo procedimento que mostra o elemento que está no nó raiz
 

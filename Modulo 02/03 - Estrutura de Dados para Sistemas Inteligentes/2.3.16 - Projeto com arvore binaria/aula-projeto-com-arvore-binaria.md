@@ -1,48 +1,72 @@
-# Projeto com Arvore Binaria
+# Projeto com Árvore Binária
 
 # Exercícios
 
 
 ## Questão 01
-Quanto é o número 16 na base 2 (em binário)?
+O percurso em ordem da seguinte árvore binária é:
+
+![Autoral](https://paperx-dex-assets.s3.sa-east-1.amazonaws.com/images/1655492605929-5YFV199ONN.png)
 
 ### Resposta:
-- e) ​10000
+- a) 1, 2, 3, 4, 5, 6, 7
 
 > SOLUÇÃO DO PROFESSOR ✨
 >
-> A conversão se dá por múltiplas divisões por 2 e o aproveitamento dos restos na ordem invertida, resultando 10000
+> Realizando o percurso em ordem da árvore binária da imagem, temos o resultado de 1, 2, 3, 4, 5, 6, 7
 
 
 ## Questão 02
-Quanto é o número 1001 (base 2) convertido para a base 10 (decimal)?
+O percurso em pré-ordem da seguinte árvore binária é:
+
+![Autoral](https://paperx-dex-assets.s3.sa-east-1.amazonaws.com/images/1655492689261-iMIIjzHZ36.png)
 
 ### Resposta:
-- a) 9
+- c) 4, 2, 1, 3, 6, 5, 7
 
 > SOLUÇÃO DO PROFESSOR ✨
 >
-> A conversão se dá multiplicando-se cada dígito por 2 elevado à potência começando do zero da direita para a esquerda: 1 x 2^0 + 0x2^1 + 0x2^2 + 1x2^3 = 9
+> Realizando o percurso em pré-ordem da árvore binária da imagem, temos o resultado de 4, 2, 1, 3, 6, 5, 7
 
 
 ## Questão 03
-O número 50 na base hexadecimal corresponde a qual número na base decimal?
+O percurso em pós-ordem da seguinte árvore binária é:
+
+![Autoral](https://paperx-dex-assets.s3.sa-east-1.amazonaws.com/images/1655492819498-PCrd9XwXlE.png)
 
 ### Resposta:
-- c) 80
+- d) 1, 3, 2, 5, 7, 6, 4
 
 > SOLUÇÃO DO PROFESSOR ✨
 >
-> 50 (16) = 0 x 16^0 + 5 X 16^1 = 80 (base 10)
+> Realizando o percurso em pós-ordem da árvore binária da imagem, temos o resultado de 1, 3, 2, 5, 7, 6, 4
 
 
 ## Questão 04
-O número 04C na base hexadecimal corresponde a qual número na base decimal?
+Observe o código abaixo e assinale a alternativa correta
+
+public void emOrdem (No ABB)
+
+{
+
+ if (ABB != NULL)
+
+  {
+
+   emOrdem(ABB.esquerda);
+
+   visita(ABB); 
+
+   emOrdem(ABB.direita);
+
+  }
+
+}
 
 ### Resposta:
-- d) 76
+- d) É o método procedimento que realiza o percurso em ordem na linguagem Java
 
 > SOLUÇÃO DO PROFESSOR ✨
 >
-> 12 x 16^0 + 4 x 16^1 + 0 x 16^2 = 12 + 64 = 76
+> No percurso em ordem, o percurso pela árvore binária é realizado na ordem, ou seja, esquerda, raiz e direita. É o método procedimento que realiza o percurso em ordem na linguagem Java
 
